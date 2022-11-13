@@ -34,7 +34,7 @@
 }
 
 #founder {
-    background-image: url(../../../assets/3.Founder_Page/BG.png);
+    background-image: url(../../../assets/Founder_Page/BG.png);
     background-size: cover;
     background-position: center center;
 }
@@ -107,7 +107,7 @@ ul {
 }
 
 #team_1 {
-    background-image: url(../../../assets/4.Team_Page_1/BG.png);
+    background-image: url(../../../assets/Team_Page_1/BG.png);
     background-size: cover;
     background-position: center center;
 }
@@ -144,7 +144,7 @@ ul {
 }
 
 #team_2 {
-    background-image: url(../../../assets/5.Team_Page_2/BG.png);
+    background-image: url(../../../assets/Team_Page_2/BG.png);
     background-size: cover;
     background-position: center center;
     padding-top: 100px;
@@ -163,7 +163,7 @@ ul {
 }
 
 #what-we-will-offer {
-    background-image: url(../../../assets/7.Our_Services/BG.png);
+    background-image: url(../../../assets/Our_Services/BG.png);
     background-size: cover;
     background-position: center center;
 }
@@ -186,7 +186,7 @@ ul {
 }
 
 #portfolio {
-    background-image: url(../../../assets/6.Clients/BG.png);
+    background-image: url(../../../assets/Clients/BG.png);
     background-size: cover;
     background-position: center center;
 }
