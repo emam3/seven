@@ -1,0 +1,217 @@
+@font-face {
+    font-family: adequate-bold;
+    src: url('../../../assets/Font_used/adequate-bold.ttf');
+}
+
+@font-face {
+    font-family: adequate-light;
+    src: url('../../../assets/Font_used/adequate-light.ttf');
+}
+
+@font-face {
+    font-family: adequate-medium;
+    src: url('../../../assets/Font_used/adequate-medium.ttf');
+}
+
+@font-face {
+    font-family: adequate-regular;
+    src: url('../../../assets/Font_used/adequate-regular.ttf');
+}
+
+.logo-home-page {
+    margin-bottom: 120px;
+}
+
+#about-us {
+    background-image: url(../../../assets/2.About_Us.png);
+    background-size: cover;
+    background-position: center center;
+    font-family: adequate-bold;
+}
+
+#about-us img {
+    visibility: hidden;
+}
+
+#founder {
+    background-image: url(../../../assets/3.Founder_Page/BG.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.my-navbar {
+    height: 750px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    margin-bottom: 250px;
+}
+
+.about-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: white;
+    font-family: adequate-regular;
+}
+
+.about-us-header {
+    font-family: adequate-bold;
+
+}
+
+.fixing-founder {
+    padding-top: 100px;
+}
+
+.founder-header {
+    font-size: 4.5rem !important;
+    color: rgb(99, 68, 253)
+}
+
+.founder-name {
+    font-family: adequate-bold;
+    color: rgb(99, 68, 253)
+}
+
+.founder-brief p {
+    margin-bottom: 0;
+    font-family: adequate-regular;
+    color: rgb(99, 68, 253)
+}
+
+.founder-role {
+    font-family: adequate-regular;
+    color: rgb(99, 68, 253)
+}
+
+.founder-img {
+    border-radius: 5px;
+    border-color: (0, 0, 0, 1);
+}
+
+.top-clients img {
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 30px
+}
+
+#team_1 {
+    background-image: url(../../../assets/4.Team_Page_1/BG.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.team_1,
+.team_2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.team_1 img,
+.team-2-member img {
+    width: 200px;
+}
+
+.team-1-name,
+#what-we-will-offer h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-family: adequate-bold;
+    color: rgb(99, 68, 253)
+}
+
+.team-1-profession,
+.team-1-experience {
+    font-family: adequate-light;
+    color: rgb(99, 68, 253)
+}
+
+.team-1-experience p {
+    margin-bottom: 0;
+}
+
+#team_2 {
+    background-image: url(../../../assets/5.Team_Page_2/BG.png);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 100px;
+}
+
+.team-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team_2 p,
+.team_2 h4,
+.team_2 h6 {
+    color: white !important
+}
+
+#what-we-will-offer {
+    background-image: url(../../../assets/7.Our_Services/BG.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#what-we-will-offer h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.offers {
+    display: flex;
+    padding-left: 150px;
+    align-items: center;
+}
+
+.offers p {
+    padding-left: 20px;
+    font-family: adequate-light;
+    color: rgb(99, 68, 253)
+}
+
+#portfolio {
+    background-image: url(../../../assets/6.Clients/BG.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#portfolio h1 {
+    text-align: center;
+    font-family: adequate-bold;
+    color: rgb(99, 68, 253);
+    padding-top: 50px;
+}
+
+.portfolio-img {
+    text-align: center;
+    width: 50%;
+}
+
+.portfolio , .portfolio a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#thank-you {
+    background-image: url(../../../assets/20-1.png);
+    background-size: cover;
+    background-position: center center;
+}

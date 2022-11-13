@@ -1,0 +1,9 @@
+body {
+    background-image: url(./assets/1.Cover_Page.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}

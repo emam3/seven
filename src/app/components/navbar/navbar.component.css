@@ -1,0 +1,16 @@
+.my-navbar {
+    height: 750px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    margin-bottom: 250px;
+}

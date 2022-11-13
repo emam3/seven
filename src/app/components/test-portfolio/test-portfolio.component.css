@@ -1,0 +1,29 @@
+.my-navbar {
+    height: 750px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: fixed;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    margin-bottom: 250px;
+}
+
+img {
+    width: 70%;
+}
+
+.portfolio-row {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-image: url('../../../assets/4.Team_Page_1/BG.png');
+}
