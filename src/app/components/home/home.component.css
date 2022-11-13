@@ -60,10 +60,45 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding-inline-start: 10%;
     text-align: left;
     color: white;
     font-family: adequate-regular;
 }
+
+@media only screen and (max-width:1700px) and (min-width:1500px) {
+    .about-us-content {
+        padding-inline-start: 20% !important;
+    }
+}
+
+@media (min-width:1700px) and (max-width:2000px) {
+    .about-us-content {
+        padding-inline-start: 30%;
+    }
+}
+
+@media (max-width:2500px) and (min-width:2000px) {
+    .about-us-content {
+        padding-inline-start: 40%;
+    }
+}
+
+
+@media (max-width:1600px) {
+    .about-us-content {
+        padding-inline-start: 40%;
+        width: 100%;
+    }
+}
+
+@media (max-width:1500px) {
+    .about-us-content {
+        width: 100%;
+    }
+}
+
 
 .about-us-header {
     font-family: adequate-bold;
@@ -115,7 +150,7 @@ ul {
 .team_1,
 .team_2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 100px;
     text-align: center;
 }
@@ -182,7 +217,8 @@ ul {
 .offers p {
     padding-left: 20px;
     font-family: adequate-light;
-    color: rgb(99, 68, 253)
+    color: rgb(99, 68, 253);
+    padding-top: 15px;
 }
 
 #portfolio {
@@ -203,7 +239,8 @@ ul {
     width: 50%;
 }
 
-.portfolio , .portfolio a{
+.portfolio,
+.portfolio a {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,4 +251,8 @@ ul {
     background-image: url(../../../assets/20-1.png);
     background-size: cover;
     background-position: center center;
+}
+
+.offer-row {
+    margin-bottom: 20px;
 }
